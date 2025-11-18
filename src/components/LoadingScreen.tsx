@@ -31,15 +31,15 @@ const LoadingScreen = ({ onLoadingComplete }: LoadingScreenProps) => {
 				}
 				return prev + 2;
 			});
-		}, 100);
+		}, 200);
 
-		// Minimum loading time of 5 seconds
+		// Minimum loading time of 10 seconds
 		const timer = setTimeout(() => {
 			terminalSounds.playSuccessBeep();
 			setTimeout(() => {
 				onLoadingComplete();
 			}, 300); // Small delay after success beep
-		}, 5000);
+		}, 10000);
 
 		// Random glitch sounds during loading
 		const glitchInterval = setInterval(() => {

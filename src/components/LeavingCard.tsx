@@ -4,6 +4,7 @@ import { Button } from "./ui/button";
 import { Separator } from "./ui/separator";
 import LoadingScreen from "./LoadingScreen";
 import VisitorCounter from "./VisitorCounter";
+import MatrixEffect from "./MatrixEffect";
 import { terminalSounds } from "./../utils/terminalSounds";
 import { useKonamiCode } from "./../hooks/useKonamiCode";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "./ui/dialog";
@@ -86,6 +87,7 @@ const LeavingCard = () => {
 
 	return (
 		<>
+			<MatrixEffect />
 			<Dialog
 				open={konamiActivated}
 				onOpenChange={(open) => !open && resetKonami()}
