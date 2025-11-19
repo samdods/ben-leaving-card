@@ -114,6 +114,12 @@ const LeavingCard = () => {
 			role: "Accidental Front-End Developer",
 			message: "It’s been a pleasure working with you, mate. Thanks for all your support over the years — wishing you all the very best in your next chapter!",
 			timestamp: 1763481390,
+		},
+		{
+			name: "Matt Dunn",
+			role: "Resident Big Tech Lobbyist",
+			message: "Good luck Ben, you will be sorely missed!",
+			timestamp: "1156550400"
 		}
 	];
 
