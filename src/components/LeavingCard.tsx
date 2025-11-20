@@ -194,6 +194,15 @@ const LeavingCard = () => {
 				"Ben, it's been incredible to work with you and I'm going to miss that! You you are a brilliant technical and product leader and I'm sure you will go on to bigger and greater things. I hope our paths will cross in the future, best of luck my Friend!",
 			timestamp: 1763568000,
 		},
+		{
+			name: "Sam D",
+			role: "The Mobile Guy",
+			message:
+				"Ah Ben, it's a crying shame we never got to work together. Maybe we will meet again in another life... " +
+				"or down the road - who knows?! I've heard incredible things and I know you'll be sorely missed in the Web team, " +
+				"and we'll miss your smile around the Edi office too! Good luck in whatever comes next for you!",
+			timestamp: 1763568001,
+		},
 	];
 
 	if (isLoading) {
