@@ -175,6 +175,12 @@ const LeavingCard = () => {
 			role: "I’m bad at goodbyes",
 			message: "Ben, you are a one-man army and you excel at everything that you do. I've learned so much from you while working on KCOM and 423, and I’ll be forever thankful for that! It’s been an absolute pleasure and I wish you nothing but the best! If you ever visit Bulgaria, let me know!",
 			timestamp: 1763568000,
+		},
+		{
+			name: "Sam B",
+			role: "Engineer of 10101010",
+			message: "I had a great time not finishing a product to better advertise crisps in shops with you.   I’ll miss your warmth, honesty, insights and ability to care about the things that mattered.  Confident you’ll go on to even greater heights (potentially successfully shipping a tool to better advertise crisps).",
+			timestamp: 1763568000,
 		}
 	];
 
