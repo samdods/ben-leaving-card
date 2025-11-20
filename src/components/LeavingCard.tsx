@@ -148,20 +148,23 @@ const LeavingCard = () => {
 		{
 			name: "Ruaridh",
 			role: "Occasional Edinburgh Office Frequenter",
-			message: "Been a pleasure working with you! All the best for whatever comes next!",
+			message:
+				"Been a pleasure working with you! All the best for whatever comes next!",
 			timestamp: 1763475725003,
 		},
 		{
 			name: "Mark Taylor",
 			role: "Struggling Python Developer",
-			message: "Ben, it has been great working with you over the last few years, I have really enjoyed your leadership style with the web practice and have unashabably stolen many of your ideas for the backend practice. It has also been great working with you on 423, we have delivered a lot on that project and it has been good to have your support through the ups and downs of it. Good luck and keep in touch!",
-			timestamp: 1763570580
+			message:
+				"Ben, it has been great working with you over the last few years, I have really enjoyed your leadership style with the web practice and have unashabably stolen many of your ideas for the backend practice. It has also been great working with you on 423, we have delivered a lot on that project and it has been good to have your support through the ups and downs of it. Good luck and keep in touch!",
+			timestamp: 1763570580,
 		},
 		{
-  			name: "Kosta",
-  			role: "The actions guy",
-  			message: "It’s been great working with you on the 423 project. You’ve always been professional, dedicated, and incredibly knowledgeable, yet still down-to-earth and fun to work with. I really enjoyed the time we spent in London with the team. Wishing you all the best in your next chapter — and let’s definitely stay in touch.",
-  			timestamp: 1763568000,
+			name: "Kosta",
+			role: "The actions guy",
+			message:
+				"It’s been great working with you on the 423 project. You’ve always been professional, dedicated, and incredibly knowledgeable, yet still down-to-earth and fun to work with. I really enjoyed the time we spent in London with the team. Wishing you all the best in your next chapter — and let’s definitely stay in touch.",
+			timestamp: 1763568000,
 		},
 		{
 			name: "James H",
@@ -173,15 +176,24 @@ const LeavingCard = () => {
 		{
 			name: "Denis",
 			role: "I’m bad at goodbyes",
-			message: "Ben, you are a one-man army and you excel at everything that you do. I've learned so much from you while working on KCOM and 423, and I’ll be forever thankful for that! It’s been an absolute pleasure and I wish you nothing but the best! If you ever visit Bulgaria, let me know!",
+			message:
+				"Ben, you are a one-man army and you excel at everything that you do. I've learned so much from you while working on KCOM and 423, and I’ll be forever thankful for that! It’s been an absolute pleasure and I wish you nothing but the best! If you ever visit Bulgaria, let me know!",
 			timestamp: 1763568000,
 		},
 		{
 			name: "Sam B",
 			role: "Engineer of 10101010",
-			message: "I had a great time not finishing a product to better advertise crisps in shops with you.   I’ll miss your warmth, honesty, insights and ability to care about the things that mattered.  Confident you’ll go on to even greater heights (potentially successfully shipping a tool to better advertise crisps).",
+			message:
+				"I had a great time not finishing a product to better advertise crisps in shops with you.   I’ll miss your warmth, honesty, insights and ability to care about the things that mattered.  Confident you’ll go on to even greater heights (potentially successfully shipping a tool to better advertise crisps).",
 			timestamp: 1763568000,
-		}
+		},
+		{
+			name: "Nick J",
+			role: "Delivery manager who should not be playing with Github",
+			message:
+				"Ben, it's been incredible to work with you and I'm going to miss that! You you are a brilliant technical and product leader and I'm sure you will go on to bigger and greater things. I hope our paths will cross in the future, best of luck my Friend!",
+			timestamp: 1763568000,
+		},
 	];
 
 	if (isLoading) {
